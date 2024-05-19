@@ -1,0 +1,29 @@
+{
+  "name": "js-hands-on",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "backEndSettings": {
+    "openFiles": [
+      "main.js"
+    ],
+    "packageInstallRoot": "/",
+    "packageRun": "node main.js"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "babel-jest": "^29.7.0"
+  }
+}
